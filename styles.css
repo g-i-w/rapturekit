@@ -40,6 +40,9 @@ p {
 	height:auto;
 	margin:8px 24px 8px 24px;
 }
+video {
+	margin:8px 0 8px 20px;
+}
 a {
 	font-weight:bold;
 	text-decoration:none;
