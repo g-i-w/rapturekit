@@ -1,0 +1,1 @@
+./downloader.sh 'https://ebible.org/flags/' '.png' al au az bd bf bh bj bm bo br bw by ca cd ci cl cm cn co cr cz de dk ec ee eg es et fm fr gb gh gn gr gt gu gy gy hn hr ht hu id il in iq ir is it jp ke lb lt mg ml mm mw mx my mz na nc ng nl no np pe pg ph ph pk pl pm py ro rp rs ru sb sd se sk sn so sr ss st td tg th tj tl to tr tz ua ug us va vn vu zm zw
