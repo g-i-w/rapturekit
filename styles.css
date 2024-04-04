@@ -52,10 +52,13 @@ a:hover {
 table {
 	font-size:16px;
 	margin:8px 24px 8px 24px;
+	border-collapse:collapse;
 }
 td {
 	min-width:16px;
 	vertical-align:top;
+	padding:8px;
+	border-top:solid #e0e0e0 1px;
 }
 .navigation {
 	border:none;
@@ -79,12 +82,30 @@ td {
 .sermon-heading {
 	font-weight:bold;
 }
+
 .compact-table {
 	font-size:12px;
 	max-width:250px;
 	display:inline-block;
 	vertical-align:top;
 	margin-bottom:24px;
+}
+.compact-table td {
+	padding:4px 4px 0 0;
+}
+
+.parts-table {
+	margin:4px;
+	border-collapse:separate;
+}
+.parts-table td {
+	border-top:0;
+	padding:1px 4px 1px 4px;
+	border-left:solid #e0e0e0 1px;
+	background-color:#e0e0e0;
+}
+.parts-table a {
+
 }
 .next-topic {
 	float:right;
@@ -126,11 +147,17 @@ td {
 	padding:8px;
 	background-color:rgb(240,242,244);
 }
+.info-paragraph td {
+	border-top:0;
+}
 .warn-paragraph {
 	border-left:solid rgb(255,190,32) 4px;
 	margin:0 16px 0 16px;
 	padding:8px;
 	background-color:rgb(255,245,200);
+}
+.warn-paragraph td {
+	border-top:0;
 }
 .selected {
 	background-color:rgb(0,44,88);
