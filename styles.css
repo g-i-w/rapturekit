@@ -107,6 +107,18 @@ td {
 .parts-table a {
 
 }
+
+.wide-table {
+	font-size:10px;
+	display:inline-block;
+	vertical-align:top;
+	margin-bottom:24px;
+	max-height:400px;
+}
+.wid-table td {
+	padding:4px 4px 0 0;
+}
+
 .next-topic {
 	float:right;
 	width:auto;
@@ -129,6 +141,9 @@ td {
 	max-width:300px;
 	background-color:#f0f0f0;
 	margin:0 0 16px 0;
+}
+.wide {
+	max-width:500px;
 }
 .icon-char {
 	font-weight:bold;
