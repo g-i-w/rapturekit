@@ -57,7 +57,7 @@ table {
 td {
 	min-width:16px;
 	vertical-align:top;
-	padding:8px;
+	padding:4px;
 	border-top:solid #e0e0e0 1px;
 }
 .navigation {
@@ -132,18 +132,21 @@ td {
 	border-bottom:none;
 	vertical-align:top;
 	padding: 0px;
-	margin: 16px 8px 16px 8px;
+	margin: 16px 8px 4px 8px;
 	overflow:auto;
 }
 .scroll-box {
 	overflow:auto;
-	max-height:400px;
+	max-height:250px;
 	max-width:300px;
-	background-color:#f0f0f0;
+	background-color:#fafafa;
 	margin:0 0 16px 0;
 }
-.wide {
-	max-width:500px;
+.column {
+	max-width:320px;
+}
+.row {
+	max-height:250px;
 }
 .icon-char {
 	font-weight:bold;
